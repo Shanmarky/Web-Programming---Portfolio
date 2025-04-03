@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>video embed</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: black;
+        }
+        video {
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <!-- The mp4 player will show the video with play controls and loop control -->
+    <video controls loop poster="dogg/doggie.mp4">
+        <!-- The video file is loaded from dogg folder and using mp4 format -->
+        <source src="dogg/doggie.mp4" type="video/mp4">
+    </video>
+</body>
+</html>
