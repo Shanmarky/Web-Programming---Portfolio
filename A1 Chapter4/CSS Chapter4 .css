@@ -1,0 +1,95 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+header {
+    background-color: #17072b;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-family: Tahoma, sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    text-decoration-line: underline;
+}
+nav {
+    background-color: #17072b;
+    padding: 10px;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+nav ul li {
+    margin: 0 15px;
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+main {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+}
+#welcome {
+    width: 60%;
+}
+#welcome h2 {
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration-line: underline;
+}
+#welcome p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #000000;
+}
+#welcome img {
+    width: 100%;
+    max-width: 600px;
+    margin-top: 10px;
+}
+#lineup {
+    width: 35%;
+    background-color: #172d67;
+    color: white;
+    padding: 20px;
+    border-radius: 5px;
+}
+#lineup h2 {
+    font-weight: bold;
+    text-decoration: underline;
+    font-size: 20px;
+}
+#lineup ul {
+    list-style-type: none;
+    padding: 0;
+}
+#lineup ul li {
+    margin: 10px 0;
+}
+.image-container {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+.image-container img {
+    width: 120px;
+    height: 120px;
+}
+
+footer {
+    background-color: #8c15e9;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
