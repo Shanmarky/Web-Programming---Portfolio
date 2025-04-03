@@ -1,0 +1,45 @@
+body {
+    background-image: url('chicken adobo bg.jpg');
+    background-size: cover;
+    margin: 0;
+    padding: 20px;
+}
+h1 {
+    background: linear-gradient(to right,#004c00,white);
+    text-align: center;
+    font-family: monospace;
+    -webkit-background-clip:text;
+    -webkit-text-fill-color: transparent;
+    font-size: 55px;
+    text-transform: uppercase;
+}
+p {
+    background: linear-gradient(to right,white,#004c00);
+   text-align: center;
+   font-size: 20px;
+   font-family: monospace;
+}
+h2 {
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    font-family: monospace;
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+ul {
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-family: monospace;
+}
+h3 {
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    font-family: monospace;
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+ol {
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-family: monospace;
+}
