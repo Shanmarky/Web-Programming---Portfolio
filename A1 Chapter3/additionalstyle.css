@@ -1,0 +1,39 @@
+/* We apply styling to the div#A element that includes a purple border combined with a red shadow effect. */
+#A {
+    border-color: purple;
+    box-shadow: 10px 10px 20px red;
+  }
+  
+  /* This element receives its border transformed from black to vibrant purple which differentiates it from other elements. */
+  #B {
+    border-color: lime;
+    box-shadow: inset 10px 10px 20px black;
+  }
+  
+  /*The special border effect of the third div element (div#C) combines different-colored multiple border layers. */
+  #C {
+    border-color: orange;
+    border-radius: 25px;
+    box-shadow: 
+      0 0 0 5px blue, 
+      0 0 0 10px red, 
+      0 0 0 15px green;
+  }
+  
+  /*This section generates a visual duplicate of text within div#D through the pseudo-element ::after allowing it to apply a blurred effect.
+   The effect produces ghostly or shadowed text through the combination of the div#D text with a blurring function. */
+  #D {
+    border-color: brown;
+    position: relative;
+  }
+  
+  #D::after {
+    content: "div#D";
+    position: absolute;
+    top: 4.8;
+    left: 79.4;
+    color: black;
+    filter: blur(0.5px);
+    opacity: 0.9;
+  }
+  
