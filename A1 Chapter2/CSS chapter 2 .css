@@ -1,0 +1,22 @@
+body {
+    background-image: url('https://wallpapercrafter.com/desktop6/1617448-Tetris-Tetris-Party-Deluxe-1080P.jpg');
+    background-size: cover;
+    margin: 5%;
+}
+ul {
+    color: wheat;
+    font-size: 15px;
+    text-transform:uppercase;
+    font-family: monospace; 
+}
+h1{
+    color: wheat;
+    font-size: 25px;
+    text-transform:uppercase;
+    font-family: monospace;
+}
+p{
+    color: wheat;
+    font-size: 15px;
+    text-transform:uppercase;
+}
