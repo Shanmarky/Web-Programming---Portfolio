@@ -1,0 +1,84 @@
+/*The styling of these text elements is consistent with the whole body of the webpage, so the font style remains consistent across all different text element in the body of the webpage. 
+   It also aligns the calculator center horizontally and verticallly inside the viewport with flex box propieties.
+   A full screen cover is set as the background image of a petrol station, making a visual sense.
+   It removes unwanted margin so that there is no spacing around the edges of the page, which is the default margin. */
+body {
+    font-family: monospace;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url(https://thumbs.dreamstime.com/b/petrol-station-9011735.jpg);
+    background-size: cover;
+    margin: 0;
+}
+
+/*This container houses all the elements of the calculator and creates a strong section away from the rest of the background. 
+   The background advantageously uses a linear gradient from both a neutral gray to blue.
+   To give a little bit of spacing, we padded inside the container; the borders were soft rounded.
+   To add some more atmosphere, it adds a subtle box shadow to make the calculator look a bit more prominent.
+   The text inside the container is centred for a nice clean and organized look.*/
+.container {
+    background: linear-gradient(rgb(151, 151, 151),blue);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/*In order to facilitate interaction, input fields get setting which forces them to take up the whole width of the container within.
+   For readibility and comfort when entering values, a padding value is used.
+   It allows you to create a part of the separation between elements, adding layout structure.
+   A subtle gray tone is set against the border, which sits quite well with the well thought design, yet is visible.
+   To make the input fields look more modern, a border-radius is used to give them slightly rounded edges.
+   To make reading more convenient, the font size is increased and a transition effect is added to give a smooth border color change when focused.*/
+input {
+    width: 95%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+/*This focus effect helps give the user experience a visual cue when a field in an input is selected.
+   To give better visibility, the border of the field changes from the normal color to bright orange allowing you to see which field is active.
+   A cleaner, more polished appearance is provided without removing the default outline.*/
+input:focus {
+    border-color: #ff4800;
+    outline: none;
+}
+
+/*The cascadic style that has been given to the button makes is a visually distinct element and important for the button to stand out.
+It is set with a dark gray background color that makes it look sleek and professional.
+ This text is white which makes it easy to read and there is enough contrast for it.
+ BorderRadius is applied on the button to have the same shapes as the input fields and container.
+ For hover interactions, a smooth on transition effect is used and cursor is set to 'pointer'.*/
+button {
+    background: #4e4e4e;
+    color: rgb(255, 255, 255);
+    border: none;
+    padding: 30px 15px;
+    font-size: 16px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+/*When the button is in an interactive state the hover effect changes the background color to a green shade.
+Readability is maintained to the text, color changing to black since the page is green.
+The advantage of this is that it improves the user experience by showing visual feedback on hover over the button.*/
+button:hover {
+    background: #009c1a;
+    color: black;
+}
+
+/*This makes the total cost display bigger and given a bold style to stand out.
+   This also adds a top margin so that the button has separation from it, enhancing the visual appeal of the layout.
+   It also makes sure that when the cost is updated, it makes it stand out and can clearly be seen by the user on what the calculated result is now.*/
+#total-cost {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 15px;
+}

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Petrol Calculator</title>
+    <link rel="stylesheet" href="Petrol chapter6 .css">
+</head>
+<body>
+    <!--This is the main container that wraps all the content on the center page.-->
+    <div class="container">
+        <!--Heading of my website, and shows the title-->
+        <h1>Petrol Calculator</h1>
+        
+        <!-- Labels for the first input field for the cost per liter of petrol -->
+        <label for="cost-per-liter">Cost per liter:</label>
+        <!-- A input field where the user can input the price of petrol per liter but with an initial value set for this field-->
+        <input type="number" id="cost-per-liter" value="1.72" step="0.01">
+        
+        <!-- It Input field for liters purchased -->
+        <label for="liters">Liters purchased:</label>
+        <input type="number" id="liters" value="0" step="0.01">
+        
+        <!-- The Button will be calculate the total cost -->
+        <button id="calculate">Calculate</button>
+        
+        <!--It will display the total cost -->
+        <p id="total-cost">Total Cost: AED0.00</p>
+    </div>
+    <script src="Calculator chapter6 .js"></script>
+</body>
+</html>
